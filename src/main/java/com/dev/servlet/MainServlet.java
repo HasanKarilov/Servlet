@@ -13,6 +13,7 @@ import java.io.PrintWriter;
 public class MainServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        req.setAttribute("name", "Developer");
         req.getRequestDispatcher("mypage.jsp").forward(req, resp);
     }
 

@@ -33,4 +33,13 @@
         <url-pattern>/ServletRequestDemo</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>ServletResponseDemo</servlet-name>
+        <servlet-class>com.dev.servlet.ResponseDemoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletResponseDemo</servlet-name>
+        <url-pattern>/ServletResponseDemo</url-pattern>
+    </servlet-mapping>
+
 </web-app>

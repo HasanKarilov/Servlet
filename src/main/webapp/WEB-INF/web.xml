@@ -51,4 +51,13 @@
         <url-pattern>/GetMethodServlet</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>PassingParametersUsingPostMethodDemo</servlet-name>
+        <servlet-class>com.dev.servlet.PostMethodDemoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PassingParametersUsingPostMethodDemo</servlet-name>
+        <url-pattern>/PassingParametersUsingPostMethodDemo</url-pattern>
+    </servlet-mapping>
+
 </web-app>

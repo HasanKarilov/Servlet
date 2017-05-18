@@ -23,4 +23,14 @@
         <servlet-name>StatusCode</servlet-name>
         <url-pattern>/StatusCode</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletRequestDemo</servlet-name>
+        <servlet-class>com.dev.servlet.RequestDemoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletRequestDemo</servlet-name>
+        <url-pattern>/ServletRequestDemo</url-pattern>
+    </servlet-mapping>
+
 </web-app>

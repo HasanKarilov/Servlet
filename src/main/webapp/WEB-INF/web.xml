@@ -42,4 +42,13 @@
         <url-pattern>/ServletResponseDemo</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>GetMethodServlet</servlet-name>
+        <servlet-class>com.dev.servlet.GetMethodDemoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetMethodServlet</servlet-name>
+        <url-pattern>/GetMethodServlet</url-pattern>
+    </servlet-mapping>
+
 </web-app>

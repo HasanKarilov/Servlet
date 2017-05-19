@@ -86,4 +86,13 @@
         <filter-name>FilterDemo</filter-name>
         <url-pattern>/FilterDemo</url-pattern>
     </filter-mapping>
+
+    <servlet>
+        <servlet-name>SessionTracking</servlet-name>
+        <servlet-class>com.dev.servlet.SessionTrackingDemo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SessionTracking</servlet-name>
+        <url-pattern>/SessionTracking</url-pattern>
+    </servlet-mapping>
 </web-app>
